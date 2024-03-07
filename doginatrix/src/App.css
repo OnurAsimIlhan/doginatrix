@@ -1,0 +1,173 @@
+.App{
+    background-color: #1e1e1e;
+}
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%); /* Start above the view */
+    opacity: 0; /* Start invisible */
+  }
+  to {
+    transform: translateY(0); /* End at the original position */
+    opacity: 1; /* Fully visible */
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(18, 1fr);
+  grid-template-rows: repeat(24, 1fr);
+  grid-auto-flow: dense;
+
+  }
+.bg-img{
+  background-image: url("../public/shop.jpeg");
+  grid-row: 1/9;
+  grid-column: 1/19;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+.logo {
+  width: 100%;
+  transform: scale(1.1);
+}
+
+.logo-grid {
+  grid-row: 1/9;
+  grid-column: 3/11;
+  
+}
+
+.text-grid {
+  grid-row: 2/3;
+  grid-column: 11/14;
+  color:rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.timer-grid {
+  display: flex;
+  justify-content: space-around;
+  grid-row: 3/5;
+  grid-column: 11/16;
+  align-items: center;
+}
+.loby-grid{
+  background-image: url("../public/loby.png");
+  margin-top:50px;
+  grid-row: 9 / 17; /* Adjust based on your layout needs */
+  grid-column: 8 / 18;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.socials-grid {
+  grid-row: 7/8;
+  grid-column: 11/16;
+  margin-top: 40px;
+}
+.about-grid{
+  grid-row: 5/7;
+  grid-column:11/16;
+  background-color: rgb(15, 19, 25);
+  border-radius: 7px;
+  color:white;
+  padding: 18px;
+}
+.howtobuy-grid {
+  margin-top:50px;
+  grid-row: 9 / 17; /* Adjust based on your layout needs */
+  grid-column: 2 / 8;
+  display: flex;
+  flex-direction: column; /* Align cards in a column */
+  gap: 20px; /* Adjust the space between cards */
+  background-color: rgb(15, 19, 25);
+  padding: 20px;
+  justify-content: space-around; /* Evenly space the phase elements */
+  border-radius: 7px;;
+}
+.howtobuy-grid h1 {
+  color:white;
+}
+.buy-step {
+  background-color: #292929; /* Slightly lighter than the grid background for contrast */
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-radius: 8px;
+}
+.step-image {
+  width: 100px; /* Example size, adjust as needed */
+  height: auto; /* Maintains aspect ratio */
+  flex-shrink: 0; /* Prevents the image from shrinking */
+  margin-right: 15px;
+}
+.text-content {
+  display: flex;
+  flex-direction: column; /* Stacks the h2 and p tags vertically */
+  justify-content: center; /* Centers the text content if there's extra vertical space */
+}
+
+.buy-step h2 {
+  margin-top: 0;
+}
+
+.buy-step p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.buy-step span{
+  font-weight: bold;
+}
+
+
+.tokenecon-grid {
+  grid-column: 1 / -1; /* Span the entire width of the grid */
+  grid-row: 18 / 23; /* Adjust based on where you want the phases to appear */
+  display: flex;
+  justify-content: space-around; /* Evenly space the phase elements */
+}
+
+.logo:hover {
+
+}
+
+.socials-grid ul {
+  list-style: none; /* Removes the bullet points */
+  padding: 0; /* Removes default padding */
+  margin: 0; /* Removes default margin */
+  display: flex; /* Aligns <li> elements in a row */
+  justify-content: space-around; /* Adjust as needed to space out the icons */
+}
+.socials-grid ul li:hover {
+  transform: scale(1.1); /* Increase size */
+  filter: brightness(1.2); /* Make it slightly brighter */
+}
+.socials-grid ul li {
+  display: inline-block;
+}
+
+.tokenecon-element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white; /* Text color */
+  background-color: rgb(15, 19, 25);
+  padding: 20px;
+  border-radius: 8px; /* Optional: for rounded corners */
+  width: 20%; /* Adjust width as necessary */
+}
+
+.tokenecon-element img{
+  width:95%;
+  border-radius: 10px;
+}
