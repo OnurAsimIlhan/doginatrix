@@ -68,6 +68,11 @@ body, html {
 }
 .main-content img{
   max-width: 100%;}
+
+  .main-content img:hover {
+    transform: scale(1.2); /* Increase size */
+    filter: brightness(1.3); /* Make it slightly brighter */
+  }
 .side-content-1 {
   display: flex;
   align-items:center;
@@ -134,12 +139,18 @@ body, html {
   max-width: 100%;
   border-radius: 10px;
 }
-
+.content img:hover {
+  transform: scale(1.1); /* Increase size */
+  filter: brightness(1.3); /* Make it slightly brighter */
+}
 .content div{
   border-radius: 10px;
   padding:20px;
   background-color: #292929;
   color:white;
+}
+.content p{
+  font-size:20px;
 }
 .content-5 {
   grid-area: content5;
@@ -199,6 +210,8 @@ body, html {
   max-width: 100%;
 }
 
+
+
 .content-11 {
   grid-area: content11;
 }
@@ -213,7 +226,7 @@ body, html {
 }
 
 .roadmap{
-  padding:10px;
+  padding:50px;
 }
 .roadmap div{
   padding:20px;

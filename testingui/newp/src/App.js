@@ -2,7 +2,7 @@ import "./App.css";
 import FlipClockCountdown from "@leenguyen/react-flip-clock-countdown";
 import "@leenguyen/react-flip-clock-countdown/dist/index.css";
 import { SocialIcon } from "react-social-icons";
-import React, { useState, useEffect } from 'react';
+
 function App() {
   return (
     <div className="App">
@@ -13,27 +13,29 @@ function App() {
           </div>
           <div class="side-content-1">
             <div className="card-1">
-              <h1>It's a Meme but with little bit of edge</h1>
+              <h1>It's a meme but with little bit of edge</h1>
               <p>
-                Bow down, crypto world, for the era of playful pups and their
+                <strong>Bow down</strong>, crypto world, for the era of playful pups and their
                 meaningless barks has come to an end. Enter the realm of
-                Doginatrix, where dominance isn't just a trait—it's the rule.
+                Doginatrix, <strong>where dominance isn't just a trait—it's the rule.</strong>
               </p>
+
+              <h2>Contact Adress: Inc Soon</h2>
             </div>
           </div>
           <div class="side-content-2">
             <FlipClockCountdown
-              to={new Date().getTime() + 24 * 3600 * 1000 + 5000}
+              to={new Date('2024-03-16T23:59:59').getTime()}
               labels={["DAYS", "HOURS", "MINUTES", "SECONDS"]}
             />
           </div>
           <div class="side-content-3">
             <ul>
               <li>
-                <SocialIcon url="https://twitter.com" />
+                <SocialIcon url="https://x.com/doginatrix" />
               </li>
               <li>
-                <SocialIcon url="https://telegram.com" />
+                <SocialIcon url="https://t.me/doginatrix" />
               </li>
               <li>
                 <SocialIcon url="https://discord.com" />
@@ -45,7 +47,7 @@ function App() {
           <div>
           <img src="./totalsup.png" alt=""></img>
             <h2>Total Supply</h2>
-            <p>Unleash the Powerhouse: Dive into the crypto jungle with 24,7,69,420,000 $DOGIX tokens. Not just any stash, but a billion-strong force ready to dominate. The adventure of a lifetime awaits.</p>
+            <p><strong>Unleash the Powerhouse:</strong> Dive into the crypto jungle with <strong> 24,7,69,420,000 $DOGIX</strong> tokens. Non-mintable contract. Buy now or loose a life time opportunity! Good Boy</p>
           </div>
         </div>
         <div class="content content-6">
@@ -53,7 +55,9 @@ function App() {
           <img src="./goodboy.png" alt=""></img>
             <h2>Taxes</h2>
             <p>
-            The Good, The Bad, and The Tax-Free: Buy $DOGIX and join the elite with zero tax. Sell and leave a 10% tribute behind. It's simple: loyalty is rewarded, desertion is taxed.            </p>
+            The Good, The Bad, and The Tax-Free: <strong>Buy $DOGIX and join the elite with zero tax</strong>.
+             Sell and leave a 10% tribute behind.
+              <strong>It's simple: loyalty is rewarded, desertion is taxed.</strong>            </p>
           
           </div>
         </div>
@@ -62,7 +66,7 @@ function App() {
           <img src="./liqburn.png" alt=""></img>
             <h2>Liquidity Burn</h2>
             <p>
-            Scorched Earth Policy: "We burn 'em all" isn't just talk. Every transaction ignites a liquidity inferno, ensuring $DOGIX's resilience and growth. Fasten your seatbelts for a blazing journey.            </p>
+            Scorched Earth Policy: <strong>"We burn 'em all"</strong> isn't just talk. Every transaction ignites a liquidity inferno, ensuring $DOGIX's resilience and growth. Fasten your seatbelts for a blazing journey.            </p>
           
           </div>
         </div>
@@ -78,7 +82,7 @@ function App() {
           </div>
         </div>
         <div class="content-9">
-        <h1>Join Us When Timer Ends</h1>
+        <h1>Join Us On Launch</h1>
           <div className="buy-step">
             <img
               src="https://static.wixstatic.com/media/1f3f2b_af81019501c549d5b192536bb8680fc5~mv2.png/v1/fill/w_152,h_152,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Untitled%20design%20-%202023-03-30T212906_738.png"
@@ -141,25 +145,45 @@ function App() {
         <div class="roadmap content-11">
         <div>
           <h1>Phase 1</h1>
-          <p>123</p>
+          <ul>
+            <li>Building Community</li>
+            <li>Socials</li>
+            <li>Website</li>
+            <li>Token Address</li>
+          </ul>
           </div>
         </div>
         <div class="roadmap content-12">
           <div>
           <h1>Phase 2</h1>
-          <p>123</p>
+          <ul>
+            <li>Airdrops</li>
+            <li>Meme Contests</li>
+            <li>First Partners Reveal</li>
+            <li>The Bigger Picture</li>
+          </ul>
           </div>
         </div>
         <div class="roadmap content-13">
         <div>
           <h1>Phase 3</h1>
-          <p>123</p>
+          <ul>
+            <li>Launch</li>
+            <li>1000 Followers on Twitter</li>
+            <li>1000 Subs on Telegram</li>
+            <li>Community Discord</li>
+          </ul>
           </div>
         </div>
         <div class="roadmap content-14">
         <div>
           <h1>Phase 4</h1>
-          <p>123</p>
+          <ul>
+            <li>Complete Takeover</li>
+            <li>10m $ market cap</li>
+            <li>Partner Reveals</li>
+            <li>Trending on Twitter #dogix $dogix</li>
+          </ul>
           </div>
         </div>
       </div>
