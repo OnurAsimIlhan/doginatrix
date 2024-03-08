@@ -28,25 +28,28 @@ body, html {
   background-color: #1e1e1e;
   padding: 0;
 }
+
 .top-wrapper {
+
   grid-area: top;
   background-image: url("../public/shop.jpeg"); /* Replace with your image path */
   background-size: cover;
   background-position: center;
   display: grid;
+  gap: 30px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-areas:
     "main main side1 side1"
     "main main side2 side2"
     "main main side3 side3";
-  gap: 30px;
 }
 .grid-container {
-  
+   
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  box-sizing: border-box;
+
   grid-template-rows: auto;
-  gap: 30px;
   grid-template-areas:
     "top top top top"
     "content5 content5 content6 content6"
@@ -64,8 +67,7 @@ body, html {
   animation: fadeInUp 1s ease-out forwards;  
 }
 .main-content img{
-  width:100%;
-}
+  max-width: 100%;}
 .side-content-1 {
   display: flex;
   align-items:center;
@@ -129,7 +131,7 @@ body, html {
 }
 
 .content img{
-  width:100%;
+  max-width: 100%;
   border-radius: 10px;
 }
 
@@ -194,7 +196,7 @@ body, html {
 }
 .content-10 img{
   border-radius:5px;
-  width: 100%;
+  max-width: 100%;
 }
 
 .content-11 {
@@ -222,21 +224,25 @@ body, html {
 
 
 /* Responsive design for mobile view */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 425px) {
+  .App{
+    overflow-x: hidden;
 
+  }
   .top-wrapper {
     grid-template-columns: 1fr;
+    grid-template-columns: minmax(0,100vw);
+    
     grid-template-areas:
       "main"
       "side1"
       "side2"
       "side3";
+      
   }
   .grid-container {
-  
-    
     grid-template-columns: 1fr;
-
+    
     grid-template-areas:
       "top"
       "top"
