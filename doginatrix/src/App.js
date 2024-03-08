@@ -108,7 +108,7 @@ function App() {
           <div className="tokenecon-element">
           <img src="./totalsup.png" alt=""></img>
             <h2>Total Supply</h2>
-            <p>Unleash the Powerhouse: Dive into the crypto jungle with 1 billion $DOGIX tokens. Not just any stash, but a billion-strong force ready to dominate. The adventure of a lifetime awaits.</p>
+            <p>Unleash the Powerhouse: Dive into the crypto jungle with 24,7,69,420,000 $DOGIX tokens. Not just any stash, but a billion-strong force ready to dominate. The adventure of a lifetime awaits.</p>
           </div>
           <div className="tokenecon-element">
           <img src="./goodboy.png" alt=""></img>
