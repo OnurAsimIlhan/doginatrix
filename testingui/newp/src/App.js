@@ -47,7 +47,7 @@ function App() {
           <div>
           <img src="./totalsup.png" alt=""></img>
             <h2>Total Supply</h2>
-            <p><strong>Unleash the Powerhouse:</strong> Dive into the crypto jungle with <strong> 24,7,69,420,000 $DOGIX</strong> tokens. Non-mintable contract. Buy now or loose a life time opportunity! Good Boy</p>
+            <p><strong>Unleash the Powerhouse:</strong> Dive into the crypto dungeon <strong> 24,7,69,420,000 $DOGIX</strong> tokens. Non-mintable contract. Buy now or loose a life time opportunity! Be a good boy</p>
           </div>
         </div>
         <div class="content content-6">
@@ -56,7 +56,7 @@ function App() {
             <h2>Taxes</h2>
             <p>
             The Good, The Bad, and The Tax-Free: <strong>Buy $DOGIX and join the elite with zero tax</strong>.
-             Sell and leave a 10% tribute behind.
+             Sell and leave a tribute behind, money goes back to good boys.
               <strong>It's simple: loyalty is rewarded, desertion is taxed.</strong>            </p>
           
           </div>
@@ -147,9 +147,9 @@ function App() {
           <h1>Phase 1</h1>
           <ul>
             <li>Building Community</li>
-            <li>Socials</li>
-            <li>Website</li>
-            <li>Token Address</li>
+            <li>Socials and Website</li>
+            <li>Liquidity Lock</li>
+            <li>Ownership Renounce</li>
           </ul>
           </div>
         </div>
@@ -160,7 +160,7 @@ function App() {
             <li>Airdrops</li>
             <li>Meme Contests</li>
             <li>First Partners Reveal</li>
-            <li>The Bigger Picture</li>
+            <li>Big Announcement</li>
           </ul>
           </div>
         </div>
